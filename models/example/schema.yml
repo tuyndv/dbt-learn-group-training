@@ -1,7 +1,7 @@
 version: 2
 
 models:
-    - name: account
+    - name: accounts
       description: "A starter dbt model"
       columns:
           - name: id
