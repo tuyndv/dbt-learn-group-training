@@ -9,6 +9,7 @@ models:
             tests:
                 - unique
               #  - not_null
+          - name: code
           - name: name
 
     #- name: my_second_dbt_model
