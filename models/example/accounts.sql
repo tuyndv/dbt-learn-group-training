@@ -14,7 +14,7 @@ with source_data as (
 )
 
 
-select id, code from source_data
+select Id, Name from source_data
 
 /*
     Uncomment the line below to remove records with null `id` values
