@@ -1,2 +1,1 @@
-select *
-from public.acc_account
+select * from acc_account
