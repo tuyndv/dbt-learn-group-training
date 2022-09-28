@@ -1,1 +1,0 @@
-select * from acc_account

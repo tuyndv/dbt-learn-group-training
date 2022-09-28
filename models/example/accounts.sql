@@ -10,7 +10,7 @@
 {{ config(materialized='table') }} 
 
 with source_data as (
-    select * from {{ ref('acc_account') }}
+    select * from acc_account
 )
 
 
