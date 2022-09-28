@@ -10,11 +10,11 @@
 {{ config(materialized='table') }} 
 
 with source_data as (
-    select Id, Name from acc_account
+    select * from acc_account
 )
 
 
-select Id, Name from source_data
+select id, name from source_data
 
 /*
     Uncomment the line below to remove records with null `id` values
