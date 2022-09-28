@@ -10,7 +10,7 @@
 {{ config(materialized='table') }} 
 
 with source_data as (
-    select * from acc_account
+    select * from _airbyte_raw_acc_account
 )
 
 
