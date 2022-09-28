@@ -10,7 +10,7 @@
 {{ config(materialized='table') }} 
 
 with source_data as (
-    select * from {{ ref('public.acc_account') }}
+    select * from {{ ref('raw_acc_account') }}
 )
 
 
