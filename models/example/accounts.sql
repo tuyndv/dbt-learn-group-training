@@ -15,7 +15,7 @@ with source_data as (
            _airbyte_data -> 'Prefix' AS Prefix,
            _airbyte_data -> 'Inactive' AS Inactive,
             _airbyte_data -> 'Description' AS Description
-    FROM _airbyte_raw_acc_account;
+    FROM _airbyte_raw_acc_account
 )
 
 select "Id", "Name"
